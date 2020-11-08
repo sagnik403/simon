@@ -21,7 +21,21 @@ body {
   width: 50%;
   margin: auto;
 }
-
+#reload{
+  position: relative;
+  color: #fff;
+  font: 700;
+  left: -50px;
+  font-size: 25px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+#reload:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
 .btn {
   margin: 25px;
   display: inline-block;
