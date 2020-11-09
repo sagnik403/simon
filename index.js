@@ -46,6 +46,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
     startOver();
+    window.location.reload();
   }
 }
 
